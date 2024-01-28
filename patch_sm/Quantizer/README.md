@@ -17,3 +17,11 @@ Here's the command to build the program on the target device, after resetting
 it by holding `boot` and pressing `reset`.
 
 `make clean; make; make program-dfu`
+
+## Controls
+
+| Pin Name | Function | Comment |
+| --- | --- | --- |
+| gate_in_1 | Quantizer gate | Sets the pitch of the oscillator |
+| CV_5 | 1V/Octave Input | Input signal to be quantized |
+| CV_OUT_1 | Output CV | The quantized CV output |
