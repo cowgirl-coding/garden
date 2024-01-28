@@ -20,8 +20,8 @@ it by holding `boot` and pressing `reset`.
 
 ## Controls
 
-| Pin Name | Function | Comment |
-| --- | --- | --- |
-| gate_in_1 | Quantizer gate | Sets the pitch of the oscillator |
-| CV_5 | 1V/Octave Input | Input signal to be quantized |
-| CV_OUT_1 | Output CV | The quantized CV output |
+| Pin Name | Pin Location | Function | Comment |
+| --- | --- | --- | --- |
+| gate_in_1 | B10 | Quantizer gate | Sets the pitch of the oscillator |
+| CV_5 | C6 | 1V/Octave Input | Input signal to be quantized |
+| CV_OUT_1 | C10 | Output CV | The quantized CV output |
