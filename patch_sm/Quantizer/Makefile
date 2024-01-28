@@ -5,8 +5,8 @@ TARGET = Quantizer
 CPP_SOURCES = Quantizer.cpp
 
 # Library Locations
-LIBDAISY_DIR = $(HOME)/Code/DaisyExamples/libDaisy/
-DAISYSP_DIR = $(HOME)/Code/DaisyExamples/DaisySP/
+LIBDAISY_DIR = $(DAISY_EXAMPLES_DIRECTORY)/libDaisy/
+DAISYSP_DIR = $(DAISY_EXAMPLES_DIRECTORY)/DaisySP/
 
 # Core location, and generic Makefile.
 SYSTEM_FILES_DIR = $(LIBDAISY_DIR)/core
