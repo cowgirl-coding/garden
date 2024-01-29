@@ -73,6 +73,7 @@ int main(void)
         bool state = patch.gate_in_1.State();
         patch.SetLed(state);
         // Only update CV output when a gate signal is received.
+        // TODO: Always quantize if no input is connected to gate_in_1
         if (!state) continue;
         // Only quntize if there's a value to quantize to
         if (scale == 0) continue; 
